@@ -1,0 +1,1 @@
+export * from './src/app/modules/confirmation-modal/confirmation-modal.module';
