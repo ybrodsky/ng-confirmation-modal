@@ -29,7 +29,7 @@
  //`title` and `onCancel` are optional
 
  confirmed() {
-  console.log('confirmed'):
+  console.log('confirmed');
  }
 
  cancelled() {
@@ -37,4 +37,12 @@
  }
 
 ```
+
+
+### Todo
+Done in a rush because couldn't find anything alike, so:
+
+- Add options to set classes and stuff
+- Make some tests
+- Set some global configs for messages and texts and classes and w/e
 
