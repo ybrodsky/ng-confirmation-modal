@@ -27,11 +27,11 @@
 ```html
  <a
   ngConfirm
-  [title]="'Confirm'" <!--optional -->
+  [title]="'Confirm'"
   [message]="'Are you sure kiddo?'"
-  [options]="options" <!--optional -->
+  [options]="options"
   (onConfirm)="confirmed()"
-  (onCancel)="cancelled()" <!--optional -->
+  (onCancel)="cancelled()"
  >
   Delete some very important stuff
  </a>

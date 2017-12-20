@@ -6,17 +6,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-	public options: any = {
-		confirmBtnClass: 'btn btn-info',
-		confirmBtnText: 'Confirmar',
-		modalSize: 'lg'
-	}
+	 options: any = {
+	 	confirmBtnClass: 'btn btn-success',      //DEFAULT VALUE
+	  confirmBtnText: 'Confirm',      				//DEFAULT VALUE
+	  cancelBtnClass: 'btn btn-danger',      //DEFAULT VALUE
+	  cancelBtnText: 'Cancel',      				//DEFAULT VALUE
+	  modalSize: 'lg',      							 //DEFAULT VALUE
+	  modalClass: ''      								//DEFAULT VALUE
+	 }
 
-  confirmed() {
-  	console.log('confirmed');
-  }
+	 confirmed() {
+	  console.log('confirmed');
+	 }
 
-  cancel() {
-  	console.log('cancel')
-  }
+	 cancelled() {
+	  console.log('cancelled');
+	 }
 }

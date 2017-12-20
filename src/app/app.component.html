@@ -1,9 +1,10 @@
 <a
   ngConfirm
   [title]="'Confirm'"
-  [message]="'Delete?'"
+  [message]="'Are you sure kiddo?'"
   [options]="options"
   (onConfirm)="confirmed()"
->
-  pepe
-</a>
+  (onCancel)="cancelled()"
+ >
+  Delete some very important stuff
+ </a>
