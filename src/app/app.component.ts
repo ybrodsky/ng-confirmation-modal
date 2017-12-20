@@ -6,6 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+	public options: any = {
+		confirmBtnClass: 'btn btn-info',
+		confirmBtnText: 'Confirmar',
+		modalSize: 'lg'
+	}
+
   confirmed() {
   	console.log('confirmed');
   }

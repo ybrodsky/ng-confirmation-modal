@@ -21,14 +21,19 @@ import { NgForm } from '@angular/forms';
       {{message}}
     </div>
     <div class="modal-footer">
-      <button type="button" class="btn btn-danger" (click)="cancel()">Cancelar</button>
-      <button type="button" class="btn btn-success" (click)="confirm()">Aceptar</button>
+      <button type="button" class="btn btn-danger" [class]="options.cancelBtnClass" (click)="cancel()">
+        {{options.cancelBtnText}}
+      </button>
+      <button type="button" class="btn btn-success" [class]="options.confirmBtnClass" (click)="confirm()">
+        {{options.confirmBtnText}}
+      </button>
     </div>
   `
 })
 export class NgbdModalContent {
   @Input() message: string;
   @Input() title: string;
+  @Input() options: any;
 
   constructor(public activeModal: NgbActiveModal) {
 

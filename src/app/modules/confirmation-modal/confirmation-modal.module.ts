@@ -10,6 +10,7 @@ import {
 
 import { NgbModule }                             from '@ng-bootstrap/ng-bootstrap';
 import { ConfirmationModalDirective }            from './confirmation-modal.directive';
+import { ConfirmationModalConfig }               from './confirmation-modal.config';
 import { NgbdModalContent }                      from './modal/modal-content.component';
 
 @NgModule({
@@ -32,10 +33,10 @@ import { NgbdModalContent }                      from './modal/modal-content.com
   providers: []
 })
 export class ConfirmationModalModule {
-  /*static forRoot(config: any): ModuleWithProviders {
+  static forRoot(config: any): ModuleWithProviders {
     return {
-      ngModule: LesImageModule,
-      providers: [ImageService, {provide: 'config', useValue: config}]
+      ngModule: ConfirmationModalModule,
+      providers: [ConfirmationModalConfig, {provide: 'config', useValue: config}]
     };
-  }*/
+  }
 }

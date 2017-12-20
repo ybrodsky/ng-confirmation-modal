@@ -11,7 +11,7 @@ import { ConfirmationModalModule } from './modules/confirmation-modal/confirmati
   ],
   imports: [
     BrowserModule,
-    ConfirmationModalModule
+    ConfirmationModalModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]
