@@ -11,7 +11,9 @@ import { ConfirmationModalModule } from './modules/confirmation-modal/confirmati
   ],
   imports: [
     BrowserModule,
-    ConfirmationModalModule.forRoot({})
+    ConfirmationModalModule.forRoot({
+    	confirmBtnText: 'Pepe'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]

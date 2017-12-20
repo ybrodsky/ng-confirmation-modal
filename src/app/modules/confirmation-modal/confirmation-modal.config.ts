@@ -11,7 +11,7 @@ export class ConfirmationModalConfig {
 	public cancelBtnText		:string = 'Cancel';
 	public cancelBtnClass		:string = 'btn btn-danger';
 
-  constructor(@Inject('config') public options:any) {
+  constructor(@Inject('ConfirmationModalConfig') public options:any) {
   	for(let option in options) {
   		this[option] = options[option];
   	}

@@ -36,7 +36,7 @@ export class ConfirmationModalModule {
   static forRoot(config: any): ModuleWithProviders {
     return {
       ngModule: ConfirmationModalModule,
-      providers: [ConfirmationModalConfig, {provide: 'config', useValue: config}]
+      providers: [ConfirmationModalConfig, {provide: 'ConfirmationModalConfig', useValue: config}]
     };
   }
 }

@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
 	 options: any = {
 	 	confirmBtnClass: 'btn btn-success',      //DEFAULT VALUE
-	  confirmBtnText: 'Confirm',      				//DEFAULT VALUE
+	  //confirmBtnText: 'Confirm',      				//DEFAULT VALUE
 	  cancelBtnClass: 'btn btn-danger',      //DEFAULT VALUE
 	  cancelBtnText: 'Cancel',      				//DEFAULT VALUE
 	  modalSize: 'lg',      							 //DEFAULT VALUE
