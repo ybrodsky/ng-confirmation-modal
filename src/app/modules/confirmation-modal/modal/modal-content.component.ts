@@ -21,8 +21,8 @@ import { NgForm } from '@angular/forms';
       {{message}}
     </div>
     <div class="modal-footer">
-      <button type="button" class="btn btn-success" (click)="confirm()">Aceptar</button>
       <button type="button" class="btn btn-danger" (click)="cancel()">Cancelar</button>
+      <button type="button" class="btn btn-success" (click)="confirm()">Aceptar</button>
     </div>
   `
 })
