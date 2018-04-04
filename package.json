@@ -1,6 +1,6 @@
 {
   "name": "ng-confirmation-modal",
-  "version": "0.2.1",
+  "version": "1.5.0",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
