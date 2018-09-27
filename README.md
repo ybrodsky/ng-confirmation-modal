@@ -1,4 +1,4 @@
-## Angular 4 Confirmation Modal using ng-bootstrap's modal
+## Angular 6 Confirmation Modal using ng-bootstrap's modal
 
 ### Installation
 
