@@ -1,3 +1,5 @@
+### NOT MAINTAINED. ALTERNATIVELY USE https://github.com/avssolutions/angular-confirm-modal
+
 ## Angular 6 Confirmation Modal using ng-bootstrap's modal
 
 ### Installation
